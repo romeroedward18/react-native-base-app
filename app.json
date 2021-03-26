@@ -1,0 +1,40 @@
+{
+  "expo": {
+    "name": "MyVitalbox",
+    "icon": "./assets/icon.png",
+    "version": "1.0.4",
+    "slug": "react_native_myvitalbox_redesign",
+    "privacy": "public",
+    "sdkVersion": "37.0.0",
+    "platforms": [
+      "ios",
+      "android",
+      "web"
+    ],
+    "orientation": "portrait",
+    "splash": {
+      "image": "./assets/splash-myvitalbox.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.vitalbox.myvitalbox"
+    },
+    "android": {
+      "package": "com.vitalbox.myvitalbox",
+      "versionCode": 10,
+      "permissions": [
+        "CAMERA",
+        "READ_INTERNAL_STORAGE"
+      ]
+    },
+    "description": ""
+  }
+}
